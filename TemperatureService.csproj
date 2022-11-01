@@ -2,14 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>41189f25-f16e-4e25-961b-ed0759cd000d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="AspNetCore.HealthChecks.UI" Version="3.1.3" />
-	  <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="3.1.2" />
-	  <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="3.1.2" />
-	  <PackageReference Include="AspNetCore.HealthChecks.Uris" Version="3.1.2" />
-	<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
 </Project>
